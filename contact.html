@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fare Scout &mdash; Contact</title>
+    <meta
+      name="description"
+      content="Contact Fare Scout for sales, partnerships, or product questions."
+    />
+    <meta property="og:title" content="Fare Scout &mdash; Contact" />
+    <meta
+      property="og:description"
+      content="Reach the Fare Scout team for early access and partnership inquiries."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://farescout.example/contact" />
+    <meta property="og:image" content="assets/og-image.svg" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="logo" href="index.html">Fare Scout</a>
+        <nav class="nav-links" aria-label="Primary">
+          <a href="index.html#product">Product</a>
+          <a href="index.html#how">How it works</a>
+          <a href="index.html#partners">Partners</a>
+          <a href="index.html#faq">FAQ</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="nav-ctas">
+          <a class="btn btn-secondary" href="contact.html">Contact sales</a>
+          <a class="btn btn-primary" href="index.html#early-access">Get early access</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="page-hero">
+        <div class="container reveal" style="--delay: 0ms;">
+          <p class="eyebrow">Contact</p>
+          <h1>Tell us how we can help.</h1>
+          <p>
+            Reach out for early access, product questions, or partnership discussions. We
+            respond within two business days.
+          </p>
+        </div>
+      </section>
+
+      <section class="page-section">
+        <div class="container grid-two">
+          <div class="form-wrapper reveal" style="--delay: 0ms;">
+            <form data-form="contact">
+              <div class="form-fields form-grid">
+                <div>
+                  <label for="contact-name">Name</label>
+                  <input id="contact-name" name="name" type="text" placeholder="Your name" required />
+                </div>
+                <div>
+                  <label for="contact-email">Email</label>
+                  <input
+                    id="contact-email"
+                    name="email"
+                    type="email"
+                    placeholder="you@example.com"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="contact-message">Message</label>
+                  <textarea id="contact-message" name="message" placeholder="How can we help?" required></textarea>
+                </div>
+                <button class="btn btn-primary" type="submit">Send message</button>
+              </div>
+              <p class="form-success" hidden aria-live="polite">Thanks &mdash; we will reply soon.</p>
+            </form>
+          </div>
+          <div class="reveal" style="--delay: 120ms;">
+            <div class="card" style="margin-bottom: 16px;">
+              <h3>Direct email</h3>
+              <p>hello@farescout.[tld placeholder]</p>
+            </div>
+            <div class="card">
+              <h3>Partnership inquiries</h3>
+              <p>partners@farescout.[tld placeholder]</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <strong>Fare Scout</strong>
+          <p class="footer-meta">hello@farescout.[tld placeholder]</p>
+        </div>
+        <div class="footer-links">
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms</a>
+          <a href="privacy.html">Cookies</a>
+        </div>
+      </div>
+      <div class="container footer-meta" style="padding-bottom: 24px;">
+        Prices and availability are provided by third parties and may change.
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
